@@ -1,0 +1,149 @@
+@font-face{
+    font-family: Abel;
+    src: url(../multimedia/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face{
+    font-family: Chackra;
+    src: url(../multimedia/NotoSansDisplay.ttf);
+}
+
+@font-face{
+    font-family: Amatic;
+    src: url(../multimedia/AmaticSC-Regular.ttf);
+}
+
+body{
+    background-color: rgb(235, 210, 210);
+}
+
+.header *{
+    font-size: 40px;
+    text-decoration: none;
+    padding: 1.5%;
+    font-family: Amatic;
+    color: black;
+
+    #lizYoga{
+        margin-left: 3%;
+    }
+    
+    #contactanos{
+        float: right;
+        margin-right: 6%;
+    }
+}
+
+
+.contact{
+    font-size: 3em;
+    font-family: Amatic;
+    // font-family: Arial, Helvetica, sans-serif;
+    margin: 2% 25%;
+
+    *{
+        margin: 1.5%;
+    }
+
+    form{
+        padding: 1em 0;
+        border: 3px solid black;
+        width: 70%;
+        border-radius: 20px;
+        margin-left: 15%;
+        div {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            input{
+                background: none;
+                border-radius: 7px;
+                padding: 0.7em;
+                margin-left: 3em;
+                width: 30%;
+            }
+
+            #mensaje{
+                margin-top: 1em;
+            }
+
+            textarea{
+                background: none;
+                border-radius: 7px;
+                resize: none;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+                height: 25vh;
+                margin-bottom: 3em;
+            }
+
+            #Submit{
+                background: none;
+                font-size:48%;
+                padding: 1em 2em;
+                border-radius: 10px;
+            }
+        }
+    } 
+}
+
+
+.content1{
+    // border: solid 7px rgba(59, 59, 59, 0.719);
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    font-style: oblique;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    margin: 5% 10% 5%;
+    padding: 1em;
+
+    #planta{
+        width: 35%;
+        height: auto;
+        object-fit: contain;
+        // border: solid 7px rgba(59, 59, 59, 0.719);
+        margin: 0 1em 0 0.3em;
+        float:left;
+    }
+}
+
+.content2{
+    // border: solid 7px rgba(59, 59, 59, 0.719);
+    margin: 0 12% 8%;
+    padding: 1em;
+    display: flex;
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    font-style: oblique;
+    letter-spacing: 5px;
+    .yoga3{
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+.content3{
+    display: flex;
+    margin: 0 12% 5%;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    font-style: oblique;
+    letter-spacing: 4px;
+
+    article{
+        padding-top: 5%;
+        padding-left: 3%;
+    }
+
+    #piedra{
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+        // border-right: 7px solid rgba(59, 59, 59, 0.719);
+    }
+}

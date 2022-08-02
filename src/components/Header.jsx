@@ -5,8 +5,8 @@ function Header(){
     return(
         <div className="header">
             <nav>
-                <Link to='/' id='lizYoga'>LizYoga</Link>
-                <Link to='/Contact' id='contactanos'>contáctanos</Link>
+                <Link to='/' id='lizYoga'>LIZYOGA</Link>
+                <Link to='/Contact' id='contactanos'>CONTÁCTANOS</Link>
             </nav>
         </div>
     )

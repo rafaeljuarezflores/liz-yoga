@@ -5,22 +5,7 @@ function Component3(){
         <div className="content3">
             <img id="piedra" src={yoga4}/>
             <article>
-                En sagrada conexión con nuestra presencia y manifestación 
-                Yo Soy paz <br />
-                Yo Soy presencia divina <br />
-                Yo Soy gratitud <br />
-                Yo Soy felicidad <br />
-                Yo Soy luz divina  <br />
-                Yo Soy sabiduría <br />
-                Yo Soy abundancia <br />
-                Yo Soy armonía <br />
-                Yo Soy bienestar <br />
-                Yo Soy la iluminacion y sabiduría de Dios <br />
-                Yo soy amor infinito e incondicional <br />
-                Así sea, así es, hecho esta. <br />
-                Gracias <br />
-                Gracias <br />
-                Graciass
+            La práctica de asañas, la meditación y la profundización en textos filosóficos del yoga nos irá transformando poco a poco. Esto no significa que vayamos a convertirnos en otra persona, sino que nos ayudará a encontrarnos a nosotros mismos y a evolucionar. Será entonces cuando el yoga habrá entrado dentro de nosotros y se habrá convertido en un modelo de vida.
             </article>
         </div>
     )

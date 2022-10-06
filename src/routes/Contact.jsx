@@ -6,12 +6,12 @@ function Contact(){
           <form>
             <div>
               <label>Nombre</label>
-              <input type="text" name='name' />
+              <input type="text" />
             </div>
-            <input type="hidden" name='_next'/>
+            <input type="hidden" id='input'/>
             <div>
               <label>Email</label>
-              <input type="email" name='email' />
+              <input type="email" name='email'/>
             </div>
             <div>
               <label id='mensaje'>Mensaje</label>
